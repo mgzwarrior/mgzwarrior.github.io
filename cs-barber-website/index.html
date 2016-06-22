@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<title>CS Barber</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+	<!-- Header Pane -->
+	<header>
+		<div class="row">
+			<div class="col-12">
+				<a href="index.html"><img class="header" src="images/logo.jpg" alt="CS Barber Logo"></a>
+			</div>
+		</div>
+		<!-- Navigation Pane -->
+		<nav>
+			<div class="row">
+				<div class="col-2">
+					<a href="about.html" class="header">About</a>
+				</div>
+				<div class="col-2">
+					<a href="services.html" class="header">Services</a>
+				</div>
+				<div class="col-2">
+					<a href="index.html" class="header-bold">C.S. Barber</a>
+				</div>
+				<div class="col-2">
+					<a href="gallery.html" class="header">Gallery</a>
+				</div>
+				<div class="col-2">
+					<a href="contact.html" class="header">Contact</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Page Body -->
+	<div class="slideshow">
+		<div>
+			<img class="center" src="images/chair.jpg" />
+		</div>
+		<div>
+			<img class="center" src="images/glass.jpg" />
+		</div>
+		<div>
+			<img class="center" src="images/card.jpg" />
+		</div>
+		<div>
+			<img class="center" src="images/stache.jpg" />
+		</div>
+	</div>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.slideshow').slick({
+			dots: true,
+			adaptiveHeight: true,
+			autoplay: true,
+			autoplaySpeed: 5000,
+		});
+	});
+	</script>
+
+	<!-- Footer Pane -->
+	<footer>
+
+	</footer>
+</body>
+</html>

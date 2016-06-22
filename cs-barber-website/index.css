@@ -1,0 +1,146 @@
+*
+{
+	box-sizing: border-box;
+}
+body {
+	background-color: #ddd9d6;
+}
+nav
+{
+	text-align: center;
+	padding: 15px;
+}
+[class*="col-"]
+{
+	float: left;
+}
+.slideshow
+{
+	margin: auto;
+	width: 90%;
+}
+.center
+{
+	margin: auto;
+}
+.row::after
+{
+	content: "";
+	clear: both;
+	display: block;
+}
+img.header
+{
+	display: block;
+	margin: auto;
+	max-width: 15%;
+}
+a.header
+{
+	color: #5a473a;
+	font-size: 20px;
+	text-decoration: none;
+}
+a.header-bold
+{
+	color: #5a473a;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* For mobile phones: */
+[class*="col-"]
+{
+	width: 100%;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px)
+{
+	.col-t-1
+	{
+		width: 10%;
+	}
+	.col-t-2
+	{
+		width: 20%;
+	}
+	.col-t-3
+	{
+		width: 30%;
+	}
+	.col-t-4
+	{
+		width: 40%;
+	}
+	.col-t-5
+	{
+		width: 50%;
+	}
+	.col-t-6
+	{
+		width: 60%;
+	}
+	.col-t-7
+	{
+		width: 70%;
+	}
+	.col-t-8
+	{
+		width: 80%;
+	}
+	.col-t-9
+	{
+		width: 90%;
+	}
+	.col-t-10
+	{
+		width: 100%;
+	}
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px)
+{
+	.col-1
+	{
+		width: 10%;
+	}
+	.col-2
+	{
+		width: 20%;
+	}
+	.col-3
+	{
+		width: 30%;
+	}
+	.col-4
+	{
+		width: 40%;
+	}
+	.col-5
+	{
+		width: 50%;
+	}
+	.col-6
+	{
+		width: 60%;
+	}
+	.col-7
+	{
+		width: 70%;
+	}
+	.col-8
+	{
+		width: 80%;
+	}
+	.col-9
+	{
+		width: 90%;
+	}
+	.col-10
+	{
+		width: 100%;
+	}
+}
