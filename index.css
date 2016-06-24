@@ -1,6 +1,71 @@
-h1{
-	font-family: 'Catamaran', sans-serif;
-	font: 35px;
-	font-weight: 500;
+html
+{
+	height: 100%;
+	margin: 0;
+}
+body
+{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	margin: 0;
+	font-family: "American Typewriter";
+	font-weight: bold;
+}
+header
+{
+	color: #61b727;
+	background-color: #dbdbdb;
 	text-align: center;
-  }
+}
+header a
+{
+	color: #61b727;
+	text-decoration: none;
+}
+header ul
+{
+	list-style-type: none;
+	background-color: #61b727;
+	margin-bottom: 0;
+	padding: 15px;
+}
+header li {
+	display: inline;
+	width: 100%;
+}
+header li a
+{
+	color: #ffffff;
+	font-size: 25px;
+	padding: 15px 50px;
+}
+header li a:hover
+{
+	background-color: #4e931f;
+}
+main
+{
+	flex: 1;
+	color: #61b727;
+	text-align: center;
+	font-size: 25px;
+	margin: 0px 0px 100px 100px;
+}
+footer
+{
+	background-color: #61b727;
+	color: #ffffff;
+	text-align: center;
+	font-size: 50px;
+}
+h1
+{
+	font-size: 75px;
+	text-shadow: 2px 2px 0 black;
+}
+img
+{
+	max-width: 1000px;
+	margin: auto;
+}
