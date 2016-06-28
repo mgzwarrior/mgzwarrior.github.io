@@ -30,7 +30,8 @@ header ul
 	margin-bottom: 0;
 	padding: 15px;
 }
-header li {
+header li
+{
 	display: inline;
 	width: 100%;
 }
@@ -50,7 +51,6 @@ main
 	color: #61b727;
 	text-align: center;
 	font-size: 25px;
-	margin: 0px 0px 100px 100px;
 }
 footer
 {
