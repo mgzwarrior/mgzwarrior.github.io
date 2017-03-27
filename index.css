@@ -10,7 +10,6 @@ body
 	min-height: 100%;
 	margin: 0;
 	font-family: "American Typewriter";
-	font-weight: bold;
 }
 header
 {
@@ -48,7 +47,7 @@ header li a:hover
 main
 {
 	flex: 1;
-	color: #61b727;
+	color: #000000;
 	text-align: center;
 	font-size: 18:px;
 }
@@ -61,6 +60,7 @@ footer
 }
 h1
 {
+	color: #61b727;
 	font-size: 50px;
 	text-shadow: 2px 2px 0 black;
 }
@@ -70,4 +70,47 @@ img
 	width: 50%;
 	height: auto;
 	margin: auto;
+}
+.github
+{
+	color: #000000;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.linkedin
+{
+	color: #007bb5;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.facebook
+{
+	color: #3b5998;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.twitter
+{
+	color: #55acee;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.instagram
+{
+	color: #e95950;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.bold
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+a.bold:link
+{
+	color: #000000;
+}
+a.bold:visited
+{
+	color: #000000;
 }
