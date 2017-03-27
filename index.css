@@ -67,6 +67,7 @@ h1
 img
 {
 	max-width: 1000px;
+	width: 50%;
+	height: auto;
 	margin: auto;
-	size: 50%;
 }
