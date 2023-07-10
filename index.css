@@ -40,6 +40,7 @@ h1
 	color: #61b727;
 	font-size: 50px;
 	text-shadow: 2px 2px 0 black;
+	text-align: center;
 }
 p
 {
@@ -102,7 +103,7 @@ a.bold:visited
   width: 35%;
 }
 .scootch-up {
-	margin-top: -500px;
+	margin-top: -200px;
 }
 .small {
 	max-width: 7%;
