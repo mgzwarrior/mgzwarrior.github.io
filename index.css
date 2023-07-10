@@ -108,9 +108,6 @@ a.bold:visited
   transform: translate(-50%, -50%);
   width: 35%;
 }
-.scootch-up {
-	margin-top: -200px;
-}
 .small {
 	max-width: 7%;
     height:auto;
