@@ -97,18 +97,22 @@ a.bold:visited
 }
 /* Container holding the image and the text */
 .container {
-  position: relative;
-  text-align: center;
+	position: relative;
+	text-align: center;
 }
 /* Centered text */
 .centered {
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 35%;
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -150%);
+	width: 35%;
 }
 .small {
 	max-width: 7%;
     height:auto;
+}
+.over {
+	position: relative;
+	z-index: -1;
 }
